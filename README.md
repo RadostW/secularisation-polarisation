@@ -21,14 +21,14 @@
 | spain__regions.csv      | region names and codes                | [7]    |
 | poland__incomes.csv     | income data (national statistics)     | [8]    |
 
-[1] : own work based on election results regiters - [github.com/RadostW/europe-elections](https://github.com/RadostW/europe-elections)
-[2] : own work based on national databases - [github.com/RadostW/europe-marriages](https://github.com/RadostW/europe-marriages)
-[3] : salary levels in years 1990-2021, social security institute elaboration - [inps.it (open data portal)](https://www.inps.it/it/it/dati-e-bilanci/open-data/scarica-gli-open-data/dettaglio-opendata.opendata.2023.05.5845.livelli-salariali-nel-periodo-1990-2021.html)
-[4] : ISTAT codes table - [istat.it (admin. codes archive)](https://www.istat.it/storage/codici-unita-amministrative/Elenco-comuni-italiani.csv)
-[5] : own work based on wikipedia, coalitions as presented in election results, only parties above 2% support
-[6] : personal incomes based on personal income tax data (modelo 190) by ministry of interior - [sede.agenciatributaria.gob.es (raw data portal)](https://sede.agenciatributaria.gob.es/Sede/estadisticas/anuario-estadistico/acceso-descarga-masiva-datos.html)
-[7] : own work based on nuts tables and ine codes tables.
-[8] : mean income in relation to the country average, national statistics office, local data bank - [bdl.stat.gov.pl (dataset builder)](https://bdl.stat.gov.pl/bdl/dane/podgrup/wymiary/40/403/2497)
+- [1] : own work based on election results regiters - [github.com/RadostW/europe-elections](https://github.com/RadostW/europe-elections)
+- [2] : own work based on national databases - [github.com/RadostW/europe-marriages](https://github.com/RadostW/europe-marriages)
+- [3] : salary levels in years 1990-2021, social security institute elaboration - [inps.it (open data portal)](https://www.inps.it/it/it/dati-e-bilanci/open-data/scarica-gli-open-data/dettaglio-opendata.opendata.2023.05.5845.livelli-salariali-nel-periodo-1990-2021.html)
+- [4] : ISTAT codes table - [istat.it (admin. codes archive)](https://www.istat.it/storage/codici-unita-amministrative/Elenco-comuni-italiani.csv)
+- [5] : own work based on wikipedia, coalitions as presented in election results, only parties above 2% support
+- [6] : personal incomes based on personal income tax data (modelo 190) by ministry of interior - [sede.agenciatributaria.gob.es (raw data portal)](https://sede.agenciatributaria.gob.es/Sede/estadisticas/anuario-estadistico/acceso-descarga-masiva-datos.html)
+- [7] : own work based on nuts tables and ine codes tables.
+- [8] : mean income in relation to the country average, national statistics office, local data bank - [bdl.stat.gov.pl (dataset builder)](https://bdl.stat.gov.pl/bdl/dane/podgrup/wymiary/40/403/2497)
 
 ## How to cite
 
