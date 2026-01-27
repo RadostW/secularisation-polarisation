@@ -1,0 +1,176 @@
+'1996_04_21':
+  left:
+    - pds
+    - pop
+    - rc
+    - verdi
+  right:
+    - an
+    - ccd_cdu
+    - fi
+    - lega
+  not_aligned:
+    - rid
+
+'1999_06_13':
+  left:
+    - ds
+    - rc
+    - sdi
+    - ppi
+  right:
+    - an_segni
+    - ccd
+    - cdu
+    - fi
+    - lega
+  not_aligned:
+    - bonino
+    - idem
+
+'2001_05_13':
+  left:
+    - ds
+    - margherita
+    - rc
+    - girasole
+    - idv
+  right:
+    - an
+    - ccd_cdu
+    - fi
+    - lega
+  not_aligned:
+    - de
+    - pb
+
+'2004_06_12':
+  left:
+    - ulivo
+    - rc
+    - verdi2
+    - idv_occhetto
+    - ci
+  right:
+    - an
+    - fi
+    - lega
+    - udc
+  not_aligned:
+    - bonino
+
+'2006_04_09':
+  left:
+    - ulivo
+    - rc
+    - verdi
+    - idv
+    - ci
+  right:
+    - an
+    - fi
+    - lega
+    - udc
+  not_aligned:
+    - rnp
+
+'2008_04_13':
+  left:
+    - pd
+  right:
+    - pdl
+    - lega    
+  not_aligned:
+    - idv
+    - ldft
+    - lsa
+    - udc
+
+'2009_06_07':
+  left:
+    - pd
+    - sel
+    - rc
+    - idv
+  right:
+    - pdl
+    - lega
+    - udc
+  not_aligned:
+    - bonino
+    - ldmpa
+
+'2013_02_24':
+  left:
+    - pd
+    - sel
+    - rcv
+  right:
+    - pdl
+    - lega
+  not_aligned:
+    - m5s
+    - scelta
+
+'2014_05_25':
+  left:
+    - pd
+    - lae
+  right:
+    - fi
+    - fdi
+    - lega
+    - ncd_udc
+  not_aligned:
+    - m5s
+
+'2018_03_04':
+  left:
+    - pd
+    - leu
+    - piueuropa
+  right:
+    - fi
+    - lega
+    - fdi
+  not_aligned:
+    - m5s    
+
+'2019_05_26':
+  left:
+    - pd
+    - verdi
+  right:
+    - lega
+    - fi
+    - fdi
+  not_aligned:
+    - m5s
+    - piue
+
+'2022_09_25':
+  left:
+    - pd_idp
+    - avs
+    - piueuropa
+  right:
+    - fdi
+    - fi
+    - lega
+  not_aligned:
+    - m5s
+    - a_iv    
+
+'2024_06_09':
+  left:
+    - pd
+    - avs
+  right:
+    - fdi
+    - fi_nm_ppe
+    - lega
+  not_aligned:
+    - m5s
+    - azione
+    - ptd
+    - sue
