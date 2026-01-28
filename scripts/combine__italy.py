@@ -1,5 +1,4 @@
 import pandas as pd
-import statsmodels.api as sm
 import pathlib
 import yaml
 
@@ -10,6 +9,8 @@ incomes_path = here / "../raw_data" / "italy__incomes.zip"
 marriages_path = here / "../raw_data" / "italy__marriages.csv"
 alignment_path = here / "../raw_data" / "italy__alignment.yaml"
 regions_path = here / "../raw_data" / "italy__regions.csv"
+
+combined_path = here / "../combined_data" / "italy__vote_income_marriage.csv"
 
 ## ##########################################
 ## ELECTIONS
@@ -209,3 +210,5 @@ merged_data = merged_data.rename(columns={
         "province_name": "reigion_name",
         "alignment_share": "vote_share",        
 })
+
+merged_data.to_csv(combined_path,index=False)
