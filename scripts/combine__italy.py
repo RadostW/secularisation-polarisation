@@ -170,9 +170,42 @@ marriages = pd.read_csv(marriages_path)
 marriages["civil_marriage_share"] = marriages["marriages_civil"] / (
     marriages["marriages_civil"] + marriages["marriages_religious"]
 )
-marriages_clean = marriages[['year', 'nuts3_code', 'harmonised_name', 'civil_marriage_share']]
+marriages_clean = marriages[
+    ["year", "nuts3_code", "harmonised_name", "civil_marriage_share"]
+]
 
 
 ## ##########################################
 ## FUSE DATASETS
 ## ##########################################
+
+elections_incomes = pd.merge(
+    left=elections_clean,
+    right=incomes_clean,
+    left_on=["harmonised_code", "year"],
+    right_on=["nuts3_code", "year"],
+    how="inner",
+)
+elections_incomes_marriages = pd.merge(
+    left=elections_incomes,
+    right=marriages_clean,
+    left_on=["nuts3_code", "year"],
+    right_on=["nuts3_code", "year"],
+)
+merged_data = elections_incomes_marriages[
+    [
+        "year",
+        "election_date",
+        "election_type",
+        "nuts3_code",
+        "province_name",
+        "alignment_share",
+        "wage_index",
+        "civil_marriage_share",
+    ]
+].copy()
+merged_data = merged_data.rename(columns={        
+        "nuts3_code":"region_code",
+        "province_name": "reigion_name",
+        "alignment_share": "vote_share",        
+})
