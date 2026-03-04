@@ -5,8 +5,8 @@ Results: Election date and region fixed effects
 Dep. Variable:             vote_share   R-squared:                       0.922
 Model:                            OLS   Adj. R-squared:                  0.910
 Method:                 Least Squares   F-statistic:                       nan
-Date:                Tue, 03 Feb 2026   Prob (F-statistic):                nan
-Time:                        16:25:36   Log-Likelihood:                 1664.3
+Date:                Thu, 05 Feb 2026   Prob (F-statistic):                nan
+Time:                        12:09:57   Log-Likelihood:                 1664.3
 No. Observations:                 838   AIC:                            -3099.
 Df Residuals:                     723   BIC:                            -2555.
 Df Model:                         114                                         
@@ -45,8 +45,8 @@ Results: Election date and region fixed effects
 Dep. Variable:             vote_share   R-squared:                       0.963
 Model:                            OLS   Adj. R-squared:                  0.958
 Method:                 Least Squares   F-statistic:                       nan
-Date:                Tue, 03 Feb 2026   Prob (F-statistic):                nan
-Time:                        16:25:36   Log-Likelihood:                 1059.5
+Date:                Thu, 05 Feb 2026   Prob (F-statistic):                nan
+Time:                        12:09:57   Log-Likelihood:                 1059.5
 No. Observations:                 459   AIC:                            -2005.
 Df Residuals:                     402   BIC:                            -1770.
 Df Model:                          56                                         
@@ -85,8 +85,8 @@ Results: Election date and region fixed effects
 Dep. Variable:             vote_share   R-squared:                       0.904
 Model:                            OLS   Adj. R-squared:                  0.898
 Method:                 Least Squares   F-statistic:                       nan
-Date:                Tue, 03 Feb 2026   Prob (F-statistic):                nan
-Time:                        16:25:38   Log-Likelihood:                 11465.
+Date:                Thu, 05 Feb 2026   Prob (F-statistic):                nan
+Time:                        12:10:00   Log-Likelihood:                 11465.
 No. Observations:                7211   AIC:                        -2.213e+04
 Df Residuals:                    6811   BIC:                        -1.938e+04
 Df Model:                         399                                         

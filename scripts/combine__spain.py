@@ -9,7 +9,8 @@ incomes_path = here / "../raw_data" / "spain__incomes.csv"
 marriages_path = here / "../raw_data" / "spain__marriages.csv"
 regions_path = here / "../raw_data" / "spain__regions.csv"
 
-combined_path = here / "../combined_data" / "spain__vote_income_marriage.csv"
+combined_output_path = here / "../combined_data" / "spain__vote_income_marriage.csv"
+marriages_output_path = here / "../combined_data" / "spain__marriages.csv"
 
 ## ##########################################
 ## ELECTIONS
@@ -129,4 +130,12 @@ merged_data = merged_data.rename(columns={
         "harmonised_name": "reigion_name",              
 })
 
-merged_data.to_csv(combined_path,index=False)
+merged_data.to_csv(combined_output_path,index=False)
+
+marriages_clean = marriages_clean.rename(
+    columns={
+        "harmonised_code": "region_code",
+        "harmonised_name": "region_name",
+    }
+)
+marriages_clean.to_csv(marriages_output_path, index=False)

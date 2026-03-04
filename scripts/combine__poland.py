@@ -9,7 +9,8 @@ incomes_path = here / "../raw_data" / "poland__incomes.csv"
 marriages_path = here / "../raw_data" / "poland__marriages.csv"
 regions_path = here / "../raw_data" / "poland__regions.csv"
 
-combined_path = here / "../combined_data" / "poland__vote_income_marriage.csv"
+combined_output_path = here / "../combined_data" / "poland__vote_income_marriage.csv"
+marriages_output_path = here / "../combined_data" / "poland__marriages.csv"
 
 ## ##########################################
 ## ELECTIONS
@@ -113,21 +114,30 @@ elections_incomes_marriages = pd.merge(
 )
 
 
-
 merged_data = elections_incomes_marriages[
     [
-         "year",
-         "election_date",
-         "election_type",
-         "harmonised_code",
-         "harmonised_name_x",
-         "vote_share",
-         "wage_index",
-         "civil_marriage_share",
-     ]
- ].copy()
-merged_data = merged_data.rename(columns={        
-         "harmonised_code":"region_code",
-         "harmonised_name_x": "reigion_name",              
- })
-merged_data.to_csv(combined_path,index=False)
+        "year",
+        "election_date",
+        "election_type",
+        "harmonised_code",
+        "harmonised_name_x",
+        "vote_share",
+        "wage_index",
+        "civil_marriage_share",
+    ]
+].copy()
+merged_data = merged_data.rename(
+    columns={
+        "harmonised_code": "region_code",
+        "harmonised_name_x": "reigion_name",
+    }
+)
+merged_data.to_csv(combined_output_path, index=False)
+
+marriages_clean = marriages_clean.rename(
+    columns={
+        "harmonised_code": "region_code",
+        "harmonised_name": "region_name",
+    }
+)
+marriages_clean.to_csv(marriages_output_path, index=False)

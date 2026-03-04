@@ -10,7 +10,8 @@ marriages_path = here / "../raw_data" / "italy__marriages.csv"
 alignment_path = here / "../raw_data" / "italy__alignment.yaml"
 regions_path = here / "../raw_data" / "italy__regions.csv"
 
-combined_path = here / "../combined_data" / "italy__vote_income_marriage.csv"
+combined_output_path = here / "../combined_data" / "italy__vote_income_marriage.csv"
+marriages_output_path = here / "../combined_data" / "italy__marriages.csv"
 
 ## ##########################################
 ## ELECTIONS
@@ -205,10 +206,20 @@ merged_data = elections_incomes_marriages[
         "civil_marriage_share",
     ]
 ].copy()
-merged_data = merged_data.rename(columns={        
-        "nuts3_code":"region_code",
+merged_data = merged_data.rename(
+    columns={
+        "nuts3_code": "region_code",
         "province_name": "reigion_name",
-        "alignment_share": "vote_share",        
-})
+        "alignment_share": "vote_share",
+    }
+)
 
-merged_data.to_csv(combined_path,index=False)
+merged_data.to_csv(combined_output_path, index=False)
+
+marriages_clean = marriages_clean.rename(
+    columns={
+        "nuts3_code": "region_code",
+        "harmonised_name": "region_name",
+    }
+)
+marriages_clean.to_csv(marriages_output_path, index=False)

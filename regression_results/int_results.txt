@@ -5,8 +5,8 @@ Results: Wage and marriage interaction, and region fe
 Dep. Variable:             vote_share   R-squared:                       0.943
 Model:                            OLS   Adj. R-squared:                  0.933
 Method:                 Least Squares   F-statistic:                       nan
-Date:                Tue, 03 Feb 2026   Prob (F-statistic):                nan
-Time:                        16:25:36   Log-Likelihood:                 1792.5
+Date:                Thu, 05 Feb 2026   Prob (F-statistic):                nan
+Time:                        12:09:57   Log-Likelihood:                 1792.5
 No. Observations:                 838   AIC:                            -3327.
 Df Residuals:                     709   BIC:                            -2717.
 Df Model:                         128                                         
@@ -53,8 +53,8 @@ Results: marriage interaction, plain wages, and region fe
 Dep. Variable:             vote_share   R-squared:                       0.942
 Model:                            OLS   Adj. R-squared:                  0.932
 Method:                 Least Squares   F-statistic:                       nan
-Date:                Tue, 03 Feb 2026   Prob (F-statistic):                nan
-Time:                        16:25:36   Log-Likelihood:                 1787.3
+Date:                Thu, 05 Feb 2026   Prob (F-statistic):                nan
+Time:                        12:09:57   Log-Likelihood:                 1787.3
 No. Observations:                 838   AIC:                            -3331.
 Df Residuals:                     716   BIC:                            -2753.
 Df Model:                         121                                         
@@ -96,8 +96,8 @@ Results: Wage and marriage interaction, and region fe
 Dep. Variable:             vote_share   R-squared:                       0.967
 Model:                            OLS   Adj. R-squared:                  0.961
 Method:                 Least Squares   F-statistic:                       nan
-Date:                Tue, 03 Feb 2026   Prob (F-statistic):                nan
-Time:                        16:25:36   Log-Likelihood:                 1084.6
+Date:                Thu, 05 Feb 2026   Prob (F-statistic):                nan
+Time:                        12:09:57   Log-Likelihood:                 1084.6
 No. Observations:                 459   AIC:                            -2019.
 Df Residuals:                     384   BIC:                            -1710.
 Df Model:                          74                                         
@@ -146,8 +146,8 @@ Results: marriage interaction, plain wages, and region fe
 Dep. Variable:             vote_share   R-squared:                       0.966
 Model:                            OLS   Adj. R-squared:                  0.961
 Method:                 Least Squares   F-statistic:                       nan
-Date:                Tue, 03 Feb 2026   Prob (F-statistic):                nan
-Time:                        16:25:36   Log-Likelihood:                 1079.1
+Date:                Thu, 05 Feb 2026   Prob (F-statistic):                nan
+Time:                        12:09:57   Log-Likelihood:                 1079.1
 No. Observations:                 459   AIC:                            -2026.
 Df Residuals:                     393   BIC:                            -1754.
 Df Model:                          65                                         
@@ -191,8 +191,8 @@ Results: Wage and marriage interaction, and region fe
 Dep. Variable:             vote_share   R-squared:                       0.939
 Model:                            OLS   Adj. R-squared:                  0.935
 Method:                 Least Squares   F-statistic:                       nan
-Date:                Tue, 03 Feb 2026   Prob (F-statistic):                nan
-Time:                        16:25:41   Log-Likelihood:                 13121.
+Date:                Thu, 05 Feb 2026   Prob (F-statistic):                nan
+Time:                        12:10:04   Log-Likelihood:                 13121.
 No. Observations:                7211   AIC:                        -2.537e+04
 Df Residuals:                    6775   BIC:                        -2.237e+04
 Df Model:                         435                                         
@@ -250,8 +250,8 @@ Results: marriage interaction, plain wages, and region fe
 Dep. Variable:             vote_share   R-squared:                       0.936
 Model:                            OLS   Adj. R-squared:                  0.932
 Method:                 Least Squares   F-statistic:                       nan
-Date:                Tue, 03 Feb 2026   Prob (F-statistic):                nan
-Time:                        16:25:43   Log-Likelihood:                 12927.
+Date:                Thu, 05 Feb 2026   Prob (F-statistic):                nan
+Time:                        12:10:06   Log-Likelihood:                 12927.
 No. Observations:                7211   AIC:                        -2.502e+04
 Df Residuals:                    6793   BIC:                        -2.214e+04
 Df Model:                         417                                         

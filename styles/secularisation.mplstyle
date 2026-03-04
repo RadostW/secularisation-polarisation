@@ -4,11 +4,10 @@ text.usetex : True
 axes.labelsize : 9
 xtick.labelsize : 9
 ytick.labelsize : 9
+axes.titlesize : 9
 
 # Lines
 lines.linewidth : 1
-lines.marker : o
-# lines.markeredgecolor : black
 lines.markersize : 3
 lines.markeredgewidth : 0.8
 
