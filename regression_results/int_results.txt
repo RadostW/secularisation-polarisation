@@ -2,45 +2,45 @@ Italy
 Results: Wage and marriage interaction, and region fe
                             OLS Regression Results                            
 ==============================================================================
-Dep. Variable:             vote_share   R-squared:                       0.943
-Model:                            OLS   Adj. R-squared:                  0.933
+Dep. Variable:             vote_share   R-squared:                       0.942
+Model:                            OLS   Adj. R-squared:                  0.931
 Method:                 Least Squares   F-statistic:                       nan
-Date:                Thu, 05 Feb 2026   Prob (F-statistic):                nan
-Time:                        12:09:57   Log-Likelihood:                 1792.5
-No. Observations:                 838   AIC:                            -3327.
-Df Residuals:                     709   BIC:                            -2717.
+Date:                Tue, 17 Mar 2026   Prob (F-statistic):                nan
+Time:                        15:04:35   Log-Likelihood:                 1785.8
+No. Observations:                 838   AIC:                            -3314.
+Df Residuals:                     709   BIC:                            -2703.
 Df Model:                         128                                         
 Covariance Type:                  HC3                                         
 ======================================================================================
                          coef    std err          z      P>|z|      [0.025      0.975]
 --------------------------------------------------------------------------------------
-wage_e_2004_06_12     -0.0235      0.031     -0.764      0.445      -0.084       0.037
-wage_e_2006_04_09     -0.0011      0.035     -0.032      0.975      -0.070       0.067
-wage_e_2008_04_13     -0.0255      0.025     -1.001      0.317      -0.075       0.024
-wage_e_2009_06_07      0.0765      0.042      1.839      0.066      -0.005       0.158
-wage_e_2013_02_24      0.0100      0.049      0.203      0.839      -0.086       0.106
-wage_e_2014_05_25     -0.0023      0.034     -0.067      0.947      -0.068       0.064
-civil_e_2004_06_12    -0.0037      0.062     -0.060      0.952      -0.126       0.119
-civil_e_2006_04_09     0.0598      0.065      0.926      0.354      -0.067       0.186
-civil_e_2008_04_13     0.0587      0.059      1.000      0.317      -0.056       0.174
-civil_e_2009_06_07     0.0420      0.067      0.624      0.533      -0.090       0.174
-civil_e_2013_02_24     0.0620      0.064      0.968      0.333      -0.064       0.188
-civil_e_2014_05_25    -0.0728      0.060     -1.218      0.223      -0.190       0.044
-civil_e_2018_03_04     0.2882      0.054      5.299      0.000       0.182       0.395
-civil_e_2019_05_26     0.2152      0.058      3.687      0.000       0.101       0.330
+wage_e_2004_06_12     -0.0183      0.031     -0.585      0.558      -0.079       0.043
+wage_e_2006_04_09      0.0022      0.036      0.063      0.950      -0.068       0.072
+wage_e_2008_04_13     -0.0269      0.026     -1.043      0.297      -0.077       0.024
+wage_e_2009_06_07      0.0746      0.042      1.794      0.073      -0.007       0.156
+wage_e_2013_02_24      0.0085      0.050      0.169      0.865      -0.090       0.107
+wage_e_2014_05_25     -0.0024      0.034     -0.070      0.944      -0.068       0.063
+civil_e_2004_06_12    -0.0054      0.063     -0.085      0.932      -0.129       0.118
+civil_e_2006_04_09     0.0643      0.064      0.997      0.319      -0.062       0.191
+civil_e_2008_04_13     0.0615      0.059      1.041      0.298      -0.054       0.177
+civil_e_2009_06_07     0.0446      0.068      0.658      0.510      -0.088       0.177
+civil_e_2013_02_24     0.0575      0.065      0.890      0.373      -0.069       0.184
+civil_e_2014_05_25    -0.0721      0.060     -1.204      0.229      -0.189       0.045
+civil_e_2018_03_04     0.2896      0.055      5.277      0.000       0.182       0.397
+civil_e_2019_05_26     0.2156      0.058      3.685      0.000       0.101       0.330
 ...
 ...
-r_ITI35                0.0429      0.020      2.141      0.032       0.004       0.082
-r_ITI41                0.0765      0.011      7.163      0.000       0.056       0.097
-r_ITI42                0.0635      0.012      5.149      0.000       0.039       0.088
-r_ITI43                0.0069      0.010      0.662      0.508      -0.014       0.027
-r_ITI44                0.1601      0.014     11.854      0.000       0.134       0.187
-r_ITI45                0.1168      0.016      7.215      0.000       0.085       0.149
+r_ITI35                0.0406      0.020      2.018      0.044       0.001       0.080
+r_ITI41                0.0742      0.011      6.935      0.000       0.053       0.095
+r_ITI42                0.0606      0.012      4.854      0.000       0.036       0.085
+r_ITI43                0.0043      0.010      0.409      0.682      -0.016       0.025
+r_ITI44                0.1577      0.014     11.641      0.000       0.131       0.184
+r_ITI45                0.1150      0.016      7.112      0.000       0.083       0.147
 ==============================================================================
-Omnibus:                       41.478   Durbin-Watson:                   1.329
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):              121.149
-Skew:                          -0.147   Prob(JB):                     4.93e-27
-Kurtosis:                       4.839   Cond. No.                         89.8
+Omnibus:                       40.818   Durbin-Watson:                   1.352
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              123.199
+Skew:                          -0.112   Prob(JB):                     1.77e-27
+Kurtosis:                       4.865   Cond. No.                         89.8
 ==============================================================================
 
 Notes:
@@ -50,40 +50,40 @@ Italy
 Results: marriage interaction, plain wages, and region fe
                             OLS Regression Results                            
 ==============================================================================
-Dep. Variable:             vote_share   R-squared:                       0.942
-Model:                            OLS   Adj. R-squared:                  0.932
+Dep. Variable:             vote_share   R-squared:                       0.941
+Model:                            OLS   Adj. R-squared:                  0.931
 Method:                 Least Squares   F-statistic:                       nan
-Date:                Thu, 05 Feb 2026   Prob (F-statistic):                nan
-Time:                        12:09:57   Log-Likelihood:                 1787.3
-No. Observations:                 838   AIC:                            -3331.
-Df Residuals:                     716   BIC:                            -2753.
+Date:                Tue, 17 Mar 2026   Prob (F-statistic):                nan
+Time:                        15:04:36   Log-Likelihood:                 1780.9
+No. Observations:                 838   AIC:                            -3318.
+Df Residuals:                     716   BIC:                            -2741.
 Df Model:                         121                                         
 Covariance Type:                  HC3                                         
 ======================================================================================
                          coef    std err          z      P>|z|      [0.025      0.975]
 --------------------------------------------------------------------------------------
-wage_index            -0.0046      0.015     -0.302      0.762      -0.035       0.025
-civil_e_2004_06_12    -0.0140      0.064     -0.219      0.826      -0.139       0.111
-civil_e_2006_04_09     0.0576      0.064      0.896      0.370      -0.068       0.183
-civil_e_2008_04_13     0.0517      0.060      0.862      0.388      -0.066       0.169
-civil_e_2009_06_07     0.0880      0.062      1.414      0.157      -0.034       0.210
-civil_e_2013_02_24     0.0696      0.056      1.239      0.215      -0.041       0.180
-civil_e_2014_05_25    -0.0733      0.058     -1.266      0.205      -0.187       0.040
-civil_e_2018_03_04     0.3185      0.054      5.939      0.000       0.213       0.424
-civil_e_2019_05_26     0.1928      0.054      3.603      0.000       0.088       0.298
+wage_index            -0.0037      0.015     -0.240      0.810      -0.034       0.026
+civil_e_2004_06_12    -0.0142      0.064     -0.221      0.825      -0.140       0.112
+civil_e_2006_04_09     0.0623      0.064      0.974      0.330      -0.063       0.188
+civil_e_2008_04_13     0.0537      0.060      0.892      0.373      -0.064       0.172
+civil_e_2009_06_07     0.0885      0.062      1.418      0.156      -0.034       0.211
+civil_e_2013_02_24     0.0631      0.056      1.124      0.261      -0.047       0.173
+civil_e_2014_05_25    -0.0736      0.058     -1.271      0.204      -0.187       0.040
+civil_e_2018_03_04     0.3201      0.054      5.952      0.000       0.215       0.425
+civil_e_2019_05_26     0.1927      0.054      3.600      0.000       0.088       0.298
 ...
 ...
-r_ITI35                0.0399      0.020      1.980      0.048       0.000       0.079
-r_ITI41                0.0727      0.011      6.570      0.000       0.051       0.094
-r_ITI42                0.0589      0.012      4.779      0.000       0.035       0.083
-r_ITI43                0.0074      0.009      0.799      0.424      -0.011       0.026
-r_ITI44                0.1568      0.014     11.428      0.000       0.130       0.184
-r_ITI45                0.1134      0.016      6.912      0.000       0.081       0.146
+r_ITI35                0.0378      0.020      1.867      0.062      -0.002       0.077
+r_ITI41                0.0706      0.011      6.359      0.000       0.049       0.092
+r_ITI42                0.0562      0.012      4.502      0.000       0.032       0.081
+r_ITI43                0.0049      0.009      0.525      0.600      -0.013       0.023
+r_ITI44                0.1545      0.014     11.205      0.000       0.128       0.182
+r_ITI45                0.1117      0.016      6.820      0.000       0.080       0.144
 ==============================================================================
-Omnibus:                       42.961   Durbin-Watson:                   1.313
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):              127.512
-Skew:                          -0.156   Prob(JB):                     2.05e-28
-Kurtosis:                       4.885   Cond. No.                         168.
+Omnibus:                       42.143   Durbin-Watson:                   1.337
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              128.720
+Skew:                          -0.124   Prob(JB):                     1.12e-28
+Kurtosis:                       4.904   Cond. No.                         168.
 ==============================================================================
 
 Notes:
@@ -96,8 +96,8 @@ Results: Wage and marriage interaction, and region fe
 Dep. Variable:             vote_share   R-squared:                       0.967
 Model:                            OLS   Adj. R-squared:                  0.961
 Method:                 Least Squares   F-statistic:                       nan
-Date:                Thu, 05 Feb 2026   Prob (F-statistic):                nan
-Time:                        12:09:57   Log-Likelihood:                 1084.6
+Date:                Tue, 17 Mar 2026   Prob (F-statistic):                nan
+Time:                        15:04:36   Log-Likelihood:                 1084.6
 No. Observations:                 459   AIC:                            -2019.
 Df Residuals:                     384   BIC:                            -1710.
 Df Model:                          74                                         
@@ -146,8 +146,8 @@ Results: marriage interaction, plain wages, and region fe
 Dep. Variable:             vote_share   R-squared:                       0.966
 Model:                            OLS   Adj. R-squared:                  0.961
 Method:                 Least Squares   F-statistic:                       nan
-Date:                Thu, 05 Feb 2026   Prob (F-statistic):                nan
-Time:                        12:09:57   Log-Likelihood:                 1079.1
+Date:                Tue, 17 Mar 2026   Prob (F-statistic):                nan
+Time:                        15:04:36   Log-Likelihood:                 1079.1
 No. Observations:                 459   AIC:                            -2026.
 Df Residuals:                     393   BIC:                            -1754.
 Df Model:                          65                                         
@@ -191,8 +191,8 @@ Results: Wage and marriage interaction, and region fe
 Dep. Variable:             vote_share   R-squared:                       0.939
 Model:                            OLS   Adj. R-squared:                  0.935
 Method:                 Least Squares   F-statistic:                       nan
-Date:                Thu, 05 Feb 2026   Prob (F-statistic):                nan
-Time:                        12:10:04   Log-Likelihood:                 13121.
+Date:                Tue, 17 Mar 2026   Prob (F-statistic):                nan
+Time:                        15:04:39   Log-Likelihood:                 13121.
 No. Observations:                7211   AIC:                        -2.537e+04
 Df Residuals:                    6775   BIC:                        -2.237e+04
 Df Model:                         435                                         
@@ -250,8 +250,8 @@ Results: marriage interaction, plain wages, and region fe
 Dep. Variable:             vote_share   R-squared:                       0.936
 Model:                            OLS   Adj. R-squared:                  0.932
 Method:                 Least Squares   F-statistic:                       nan
-Date:                Thu, 05 Feb 2026   Prob (F-statistic):                nan
-Time:                        12:10:06   Log-Likelihood:                 12927.
+Date:                Tue, 17 Mar 2026   Prob (F-statistic):                nan
+Time:                        15:04:41   Log-Likelihood:                 12927.
 No. Observations:                7211   AIC:                        -2.502e+04
 Df Residuals:                    6793   BIC:                        -2.214e+04
 Df Model:                         417                                         

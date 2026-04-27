@@ -1,0 +1,153 @@
+round_to_year:
+    1: 2002
+    2: 2004
+    3: 2006
+    4: 2008
+    5: 2010
+    6: 2012
+    7: 2014
+    8: 2016
+    9: 2018
+    10: 2020
+    11: 2023
+
+teryt_to_nuts:
+  "T_02": "PL51"
+  "T_04": "PL61"
+  "T_06": "PL81"
+  "T_08": "PL43"
+  "T_10": "PL71"
+  "T_12": "PL21"
+  "T_14": "PL9X" # warning - two regions
+  "T_16": "PL52"
+  "T_18": "PL82"
+  "T_20": "PL84"
+  "T_22": "PL63"
+  "T_24": "PL22"
+  "T_26": "PL72"
+  "T_28": "PL62"
+  "T_30": "PL41"
+  "T_32": "PL42"
+
+vote_columns:
+    - "prtvtpl"    
+    - "prtvtapl"
+    - "prtvtbpl"
+    - "prtvtcpl"
+    - "prtvtdpl"
+    - "prtvtepl"
+    - "prtvtfpl"
+
+prtvtpl:
+    1:  "Sojusz Lewicy Demokratycznej/Unia Pracy"
+    2:  "Akcja Wyborcza Solidarność Prawicy"
+    3:  "Unia Wolności"
+    4:  "Samoobrona Rzeczypospolitej Polskiej"
+    5:  "Prawo i Sprawiedliwość"
+    6:  "Polskie Stronnictwo Ludowe"
+    7:  "Platforma Obywatelska"
+    8:  "Alternatywa Ruch Społeczny"
+    9:  "Polska Wspólnota Narodowa"
+    10:  "Liga Polskich Rodzin"
+    11:  "Mniejszość Niemiecka"
+    12:  "Polska Unia Gospodarcza"
+    13:  "Polska Partia Socjalistyczna"
+    14:  "Niemiecka Mniejszość Górnego Śląska"
+    66:  "Not applicable*"
+    77:  "Refusal*"
+    88:  "Don't know*"
+    99:  "No answer*"
+
+prtvtapl:
+    1:  "Centrum"
+    2:  "Dom Ojczysty"
+    3:  "Liga Polskich Rodzin"
+    4:  "Narodowe Odrodzenie Polski"
+    5:  "Ogólnopolska Koalicja Obywatelska"
+    6:  "Partia Demokratyczna demokraci.pl"
+    7:  "Partia Inicjatywa RP"
+    8:  "Platforma Janusza Korwin-Mikke"
+    9:  "Platforma Obywatelska"
+    10:  "Polska Konfederacja – Godność i Praca"
+    11:  "Polska Partia Narodowa"
+    12:  "Polska Partia Pracy"
+    13:  "Polskie Stronnictwo Ludowe"
+    14:  "Prawo i Sprawiedliwość"
+    15:  "Ruch Patriotyczny"
+    16:  "Samoobrona Rzeczypospolitej Polskiej"
+    17:  "Socjaldemokracja Polska"
+    18:  "Sojusz Lewicy Demokratycznej"
+    19:  "Other"
+    66:  "Not applicable*"
+    77:  "Refusal*"
+    88:  "Don't know*"
+    99:  "No answer*"
+
+prtvtbpl:
+    1:  "Lewica i Demokraci"
+    2:  "Liga Polskich Rodzin"
+    3:  "Platforma Obywatelska"
+    4:  "Polska Partia Pracy"
+    5:  "Polskie Stronnictwo Ludowe"
+    6:  "Prawo i Sprawiedliwość"
+    7:  "Samoobrona Rzeczypospolitej Polskiej"
+    8:  "Other"
+    66:  "Not applicable*"
+    77:  "Refusal*"
+    88:  "Don't know*"
+    99:  "No answer*"
+
+prtvtcpl:
+    1:  "Nowa Prawica"
+    2:  "Platforma Obywatelska"
+    3:  "Polska Jest Najważniejsza"
+    4:  "Polska Partia Pracy – Sierpień '80"
+    5:  "Polskie Stronnictwo Ludowe"
+    6:  "Prawo i Sprawiedliwość"
+    7:  "Ruch Palikota"
+    8:  "Sojusz Lewicy Demokratycznej"
+    9:  "Other"
+    66:  "Not applicable*"
+    77:  "Refusal*"
+    88:  "Don't know*"
+    99:  "No answer*"
+
+prtvtdpl:
+    1:  "KORWiN"
+    2:  "Kukiz'15"
+    3:  "Nowoczesna"
+    4:  "Platforma Obywatelska"
+    5:  "Polskie Stronnictwo Ludowe"
+    6:  "Prawo i Sprawiedliwość"
+    7:  "Razem"
+    8:  "Zjednoczona Lewica"
+    9:  "Other"
+    66:  "Not applicable*"
+    77:  "Refusal*"
+    88:  "Don't know*"
+    99:  "No answer*"
+
+prtvtepl:
+    1:  "Koalicja Bezpartyjni i Samorządowcy"
+    2:  "Koalicja Obywatelska"
+    3:  "Konfederacja Wolność i Niepodległość"
+    4:  "Polskie Stronnictwo Ludowe"
+    5:  "Prawo i Sprawiedliwość"
+    6:  "Sojusz Lewicy Demokratycznej"
+    7:  "Other"
+    66:  "Not applicable*"
+    77:  "Refusal*"
+    88:  "Don't know*"
+    99:  "No answer*"
+
+prtvtfpl:
+    1: "Koalicja Obywatelska"
+    2: "Prawo i Sprawiedliwość"
+    3: "Trzecia Droga"
+    4: "Nowa Lewica"
+    5: "Konfederacja Wolność i Niepodległość"
+    6: "Other"
+    66: "Not applicable*"
+    77: "Refusal*"
+    88: "Don't know*"
+    99: "No answer*"

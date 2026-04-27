@@ -18,9 +18,9 @@ title_map = [
 
 tab20 = plt.get_cmap("tab20").colors
 color_map = {
-    "Italy": (tab20[0], tab20[1]),
-    "Spain": (tab20[2], tab20[3]),
-    "Poland": (tab20[4], tab20[5]),
+    "Italy": (tab20[0], tab20[0]),
+    "Spain": (tab20[2], tab20[2]),
+    "Poland": (tab20[4], tab20[4]),
 }
 marker_map = {
     "Italy": "v",

@@ -109,7 +109,7 @@ tab20 = plt.get_cmap("tab20").colors
 color_map = {
     "italy": tab20[1],
     "spain": tab20[3],
-    "poland": tab20[5],
+    "poland": tab20[4],
     "germany": tab20[7],
     "france": tab20[9],
 }

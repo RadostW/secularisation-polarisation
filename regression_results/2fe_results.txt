@@ -2,37 +2,37 @@ Italy
 Results: Election date and region fixed effects
                             OLS Regression Results                            
 ==============================================================================
-Dep. Variable:             vote_share   R-squared:                       0.922
-Model:                            OLS   Adj. R-squared:                  0.910
+Dep. Variable:             vote_share   R-squared:                       0.921
+Model:                            OLS   Adj. R-squared:                  0.909
 Method:                 Least Squares   F-statistic:                       nan
-Date:                Thu, 05 Feb 2026   Prob (F-statistic):                nan
-Time:                        12:09:57   Log-Likelihood:                 1664.3
-No. Observations:                 838   AIC:                            -3099.
-Df Residuals:                     723   BIC:                            -2555.
+Date:                Tue, 17 Mar 2026   Prob (F-statistic):                nan
+Time:                        15:04:35   Log-Likelihood:                 1658.1
+No. Observations:                 838   AIC:                            -3086.
+Df Residuals:                     723   BIC:                            -2542.
 Df Model:                         114                                         
 Covariance Type:                  HC3                                         
 ========================================================================================
                            coef    std err          z      P>|z|      [0.025      0.975]
 ----------------------------------------------------------------------------------------
-wage_index               0.0300      0.016      1.896      0.058      -0.001       0.061
-civil_marriage_share     0.2745      0.053      5.162      0.000       0.170       0.379
-e_2004_06_12             0.2422      0.027      8.946      0.000       0.189       0.295
-e_2006_04_09             0.2713      0.028      9.833      0.000       0.217       0.325
-e_2008_04_13             0.2398      0.030      8.088      0.000       0.182       0.298
-e_2009_06_07             0.3031      0.030     10.134      0.000       0.244       0.362
+wage_index               0.0297      0.016      1.850      0.064      -0.002       0.061
+civil_marriage_share     0.2731      0.053      5.143      0.000       0.169       0.377
+e_2004_06_12             0.2454      0.027      8.993      0.000       0.192       0.299
+e_2006_04_09             0.2736      0.028      9.851      0.000       0.219       0.328
+e_2008_04_13             0.2431      0.030      8.148      0.000       0.185       0.302
+e_2009_06_07             0.3072      0.030     10.212      0.000       0.248       0.366
 ...
 ...
-r_ITI35                  0.0813      0.018      4.637      0.000       0.047       0.116
-r_ITI41                  0.0955      0.013      7.545      0.000       0.071       0.120
-r_ITI42                  0.0892      0.013      7.017      0.000       0.064       0.114
-r_ITI43                  0.0092      0.010      0.890      0.373      -0.011       0.029
-r_ITI44                  0.1916      0.015     12.930      0.000       0.163       0.221
-r_ITI45                  0.1626      0.017      9.324      0.000       0.128       0.197
+r_ITI35                  0.0788      0.018      4.445      0.000       0.044       0.114
+r_ITI41                  0.0930      0.013      7.200      0.000       0.068       0.118
+r_ITI42                  0.0862      0.013      6.624      0.000       0.061       0.112
+r_ITI43                  0.0068      0.011      0.642      0.521      -0.014       0.027
+r_ITI44                  0.1889      0.015     12.606      0.000       0.160       0.218
+r_ITI45                  0.1604      0.018      9.161      0.000       0.126       0.195
 ==============================================================================
-Omnibus:                       18.426   Durbin-Watson:                   0.962
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):               34.980
-Skew:                          -0.074   Prob(JB):                     2.54e-08
-Kurtosis:                       3.990   Cond. No.                         141.
+Omnibus:                       17.349   Durbin-Watson:                   0.981
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               32.769
+Skew:                          -0.049   Prob(JB):                     7.66e-08
+Kurtosis:                       3.964   Cond. No.                         141.
 ==============================================================================
 
 Notes:
@@ -45,8 +45,8 @@ Results: Election date and region fixed effects
 Dep. Variable:             vote_share   R-squared:                       0.963
 Model:                            OLS   Adj. R-squared:                  0.958
 Method:                 Least Squares   F-statistic:                       nan
-Date:                Thu, 05 Feb 2026   Prob (F-statistic):                nan
-Time:                        12:09:57   Log-Likelihood:                 1059.5
+Date:                Tue, 17 Mar 2026   Prob (F-statistic):                nan
+Time:                        15:04:36   Log-Likelihood:                 1059.5
 No. Observations:                 459   AIC:                            -2005.
 Df Residuals:                     402   BIC:                            -1770.
 Df Model:                          56                                         
@@ -85,8 +85,8 @@ Results: Election date and region fixed effects
 Dep. Variable:             vote_share   R-squared:                       0.904
 Model:                            OLS   Adj. R-squared:                  0.898
 Method:                 Least Squares   F-statistic:                       nan
-Date:                Thu, 05 Feb 2026   Prob (F-statistic):                nan
-Time:                        12:10:00   Log-Likelihood:                 11465.
+Date:                Tue, 17 Mar 2026   Prob (F-statistic):                nan
+Time:                        15:04:37   Log-Likelihood:                 11465.
 No. Observations:                7211   AIC:                        -2.213e+04
 Df Residuals:                    6811   BIC:                        -1.938e+04
 Df Model:                         399                                         

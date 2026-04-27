@@ -8,7 +8,7 @@ style_path = here / "../styles" / "secularisation.mplstyle"
 regressors_path = here / "../combined_data" / "poland__vote_income_marriage.csv"
 pc1_path = here / "../combined_data" / "poland__pc1.csv"
 
-output_path = here / "../plot_graphics" / "variance_deomposition_poland.pdf"
+output_path = here / "../combined_data" / "explained_variance_shares.csv"
 
 regressors = pd.read_csv(regressors_path)
 pc1 = pd.read_csv(pc1_path, index_col=0)
@@ -96,30 +96,4 @@ variance_df["model_evs"] = (
 ) - (variance_df["pc1_residuals_variance"] / variance_df["total_variance"])
 
 
-import matplotlib.pyplot as plt
-import numpy as np
-
-plt.style.use(style_path)
-
-FIGURE_WIDTH = 3.3
-FIGURE_HEIGHT = 2.5
-fig, ax = plt.subplots(
-    ncols=1,
-    figsize=(FIGURE_WIDTH, FIGURE_HEIGHT),
-    constrained_layout=True,
-    sharey=True,
-)
-
-plt.scatter(variance_df["year"], variance_df["pc1_evs"], label="PC1")
-plt.scatter(variance_df["year"], variance_df["model_evs"], label="Civil marriage share")
-
-plt.ylim(bottom=0)
-plt.ylabel("share of explained variance")
-plt.legend(
-    ncols=1,
-    loc="lower right",
-)  # bbox_to_anchor=(1, -0.2),
-
-plt.savefig(output_path)
-
-plt.show()
+variance_df[["year","pc1_evs","model_evs"]].to_csv(output_path,index=False)
